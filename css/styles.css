@@ -1,0 +1,30 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.result-box {
+  background-color: hsl(252, 100%, 67%);
+  color: white;
+  width: 350px;
+  height: 400px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary-box {
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+  width: 350px;
+  height: 400px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

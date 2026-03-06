@@ -20,10 +20,3 @@
     src: url(../assets/fonts/static/HankenGrotesk-ExtraBold.ttf) format("truetype");
     font-weight: 800;
 }
-
-body {
-    font-family: "HankenGrotesk", sans-serif;
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: hsl(221, 100%, 96%);
-}

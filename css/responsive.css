@@ -1,0 +1,36 @@
+@media (max-width: 375px) {
+    body {
+        margin: 0;
+        height: auto;
+    }
+    
+    .flex-container {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .result-box {
+        width: 100%;
+        margin: 0;
+        padding: 0 1.5rem 1.5rem 1.5rem;
+        border-radius: 0 0 30px 30px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .summary-box {
+        width: 100%;
+        height: auto;
+        padding: 30px 20px 30px 20px;
+        border-radius: 0;
+        position: relative;
+        z-index: 1;
+        margin-top: -20px;
+    }
+
+    .site-footer {
+        position: absolute;
+        width: 100%;
+    }
+}
